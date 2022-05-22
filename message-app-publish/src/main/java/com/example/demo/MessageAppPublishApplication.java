@@ -7,8 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class MessageAppPublishApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(MessageAppPublishApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(MessageAppPublishApplication.class, args);
+    }
 
 }

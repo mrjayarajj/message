@@ -23,8 +23,8 @@ public class KafkaController {
 
     @PostMapping(value = "/publish/kafka/message", consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseStatus(HttpStatus.OK)
-    public ResponseEntity<KafkaMessage> publishKafkaMessage( @RequestBody KafkaMessage message) {
-        log.info("message"+message);
+    public ResponseEntity<KafkaMessage> publishKafkaMessage(@RequestBody KafkaMessage message) {
+        log.info("message" + message);
         kafkaTemplate.send(topic, "MESSAGE_KEY", message);
         return ResponseEntity.ok(message);
     }

@@ -8,13 +8,13 @@ import java.io.Serializable;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class KafkaMessage  implements Serializable {
+public class KafkaMessage implements Serializable {
 
     private String uuid;
     private String host;
     private String traceId;
     private String spanId;
-    private Long createTimestamp ;
+    private Long createTimestamp;
     private Object payload;
 
 }
