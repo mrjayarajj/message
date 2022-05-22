@@ -7,6 +7,7 @@ import java.io.Serializable;
 
 @Data
 @AllArgsConstructor
+@NoArgsConstructor
 public class KafkaMessage  implements Serializable {
 
     private String uuid;
