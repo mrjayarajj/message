@@ -8,10 +8,10 @@
 		<version>2.3.10.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.techprimers</groupId>
-	<artifactId>domain-crawler</artifactId>
+	<groupId>com.example.demo</groupId>
+	<artifactId>message-app-publish</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>domain-crawler</name>
+	<name>message-app-publish</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
@@ -53,5 +53,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
 </project>
